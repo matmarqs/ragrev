@@ -1,0 +1,26 @@
+[sekai@void re_rag]$ python3 proxy.py
+Exception in thread Thread-5 (server2client):
+Traceback (most recent call last):
+  File "/home/sekai/.pyenv/versions/3.13.7/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/sekai/.pyenv/versions/3.13.7/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sekai/Games/ROcraft_6.9/re_rag/proxy.py", line 52, in server2client
+    socket_server.connect(server_addr)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+ConnectionRefusedError: [Errno 111] Connection refused
+========== Connected by ('127.0.0.1', 51114) ==========
+client[6900] -> 5802
+server[6900] <- 590201
+client[6900] -> 64001300000074657374650000000000000000000000000000000000000074657374653132330000000000000000000000000000000016
+server[6900] <- 69004f006429df0882841e0025c5e54500000000323032362d30322d31362031383a32373a303600000000000000017f000002e91765417468656e6100000000000000000000000000000000000000
+========== Connected by ('127.0.0.1', 56274) ==========
+client[6121] -> 5802
+server[6121] <- 590201
+client[6121] -> 64001300000074657374650000000000000000000000000000000000000074657374653132330000000000000000000000000000000016
+^CTraceback (most recent call last):
+  File "/home/sekai/.pyenv/versions/3.13.7/lib/python3.13/threading.py", line 1542, in _shutdown
+    _thread_shutdown()
+KeyboardInterrupt:
