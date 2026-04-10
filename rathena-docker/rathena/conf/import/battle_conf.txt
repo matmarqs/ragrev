@@ -1,0 +1,5 @@
+
+// customizable
+delay_battle_damage: no
+
+multi_level_up: yes
