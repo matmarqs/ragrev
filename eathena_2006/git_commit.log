@@ -1,0 +1,38 @@
+commit a36680ba870e2d25d04ad8650be56ab567c143bf (HEAD -> master)
+Author: Mateus Marques <mateusmarques2001@usp.br>
+Date:   Fri Feb 20 23:43:18 2026 +0000
+
+    Game was working, logged in into map server and played
+
+commit b3319a29c4e80f5a8998627e29e3dca83bcb0a35
+Author: Mateus Marques <mateusmarques2001@usp.br>
+Date:   Wed Feb 18 19:53:18 2026 +0000
+
+    bRO client 2006: 0x258 <-> 0x259 gameguard handshake, and char_direct_auth 0x64 login packet
+
+commit 0cb07145ea1431528d0591b6a8706856915b3782 (origin/master, origin/HEAD)
+Author: ai4rei <ai4rei@eathena.ws>
+Date:   Sat Dec 20 06:41:47 2014 +0000
+
+    * Some remaining uncommitted changes (interment).
+    - Added packet db stub for 2011-10-05aRagexe (packet ver 27).
+    - Fixed comment for packet format of clif_status_change (ZC_MSG_STATE_CHANGE/ZC_EFST_SET_ENTER) family of packets.
+    - Some code cleanups in timer.c and malloc.c
+
+    git-svn-id: https://svn.paradoxsystems.net/trunk@15269 54d463be-8e91-2dee-dedb-b68131a5f0ec
+
+commit c262c287bac6065588ae8658a7bc8e5badd0d6ef
+Author: ai4rei <ai4rei@eathena.ws>
+Date:   Fri Jun 20 17:07:47 2014 +0000
+
+    * Fixed wrong range for 'packet_ver_flag' battle config (follow up to r15267).
+
+    git-svn-id: https://svn.paradoxsystems.net/trunk@15268 54d463be-8e91-2dee-dedb-b68131a5f0ec
+
+commit bc43f22e81894cd732494316e40e53ec1e4fd9c6
+Author: ai4rei <ai4rei@eathena.ws>
+Date:   Sat May 10 14:22:21 2014 +0000
+
+    * Added support for 2013-12-23cRagexe.
+
+    git-svn-id: https://svn.paradoxsystems.net/trunk@15267 54d463be-8e91-2dee-dedb-b68131a5f0ec

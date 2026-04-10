@@ -1,0 +1,19 @@
+services:
+  eathena-dev:
+    build: .
+    container_name: eathena_i386_dev
+    tty: true
+    stdin_open: true
+    ports:
+      - "127.0.0.1:6900:6900"   # login
+      - "127.0.0.1:6121:6121"   # char
+      - "127.0.0.1:5121:5121"   # map
+      - "127.0.0.1:3306:3306"   # mysql
+    volumes:
+      - eathena_i386-src:/opt/eathena
+      - eathena_i386-mariadb:/var/lib/mysql
+    working_dir: /opt/eathena
+
+volumes:
+  eathena_i386-src:
+  eathena_i386-mariadb:
